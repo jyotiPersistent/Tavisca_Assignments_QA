@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "types": [
+            "node",
+            "@wdio/cucumber-framework",
+            "@wdio/sync",
+        ],
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./features/**/*.ts"
+    ]
+}
