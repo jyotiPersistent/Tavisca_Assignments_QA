@@ -1,0 +1,221 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602761826770' stop='1602761835045'>
+    <name>Bank base features: [Bank base scenario 1.4]</name>
+    <title>Bank base features: [Bank base scenario 1.4]</title>
+    <test-cases>
+        <test-case start='1602761826771' status='passed' stop='1602761826771'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761826772' status='passed' stop='1602761835036'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps>
+                <step start='1602761826772' status='passed' stop='1602761827136'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b60f5aae-964c-40d8-b391-9e35e96f8385-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Screenshot' source='1c3324c3-30a6-4ec7-b175-56c34ab719a7-attachment.png' type='image/png' size='373199'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1602761830034' status='passed' stop='1602761830468'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='754e387b-43c7-4697-aeac-31bcf157715e-attachment.png' type='image/png' size='310306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835037' status='broken' stop='1602761835039'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot convert undefined or null to object</message>
+                <stack-trace>TypeError: Cannot convert undefined or null to object
+                    at Function.entries (&lt;anonymous>)
+                    at Function.SkippedScenerioMaintainanceUtil.checkForSkippedScenerio (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\utilities\skipped-scenerio-maintenance-util.ts:14:28)
+                    at World.&lt;anonymous> (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\bank.citi.ts:15:40)
+                    at step (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\bank.citi.ts:33:23)
+                    at Object.next (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\bank.citi.ts:14:53)
+                    at D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\bank.citi.ts:8:71
+                    at World.&lt;anonymous> (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\bank.citi.ts:58:12)
+                    at World.userHookFn (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\cucumber-framework\build\utils.js:179:25)
+                    at World.executeSync (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1602761835039' status='passed' stop='1602761835039'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835039' status='passed' stop='1602761835039'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835039' status='passed' stop='1602761835039'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835040' status='pending' stop='1602761835040'>
+            <name>Given I try Bank base scenario 1.4</name>
+            <title>Given I try Bank base scenario 1.4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835040' status='pending' stop='1602761835041'>
+            <name>When I check scenario 1.4</name>
+            <title>When I check scenario 1.4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835042' status='pending' stop='1602761835042'>
+            <name>Then It should verify scenario 1.4 properly</name>
+            <title>Then It should verify scenario 1.4 properly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835043' status='passed' stop='1602761835043'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835043' status='passed' stop='1602761835044'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835044' status='passed' stop='1602761835044'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602761835044' status='passed' stop='1602761835044'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602490474360' stop='1602490506462'>
+    <name>vacationsdirect hotel search and paging verification: [Scenario 2.1] As a user, I can search hotels details for specific page- 5</name>
+    <title>vacationsdirect hotel search and paging verification: [Scenario 2.1] As a user, I can search hotels details for specific page- 5</title>
+    <test-cases>
+        <test-case start='1602490474361' status='passed' stop='1602490474362'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490474362' status='passed' stop='1602490474362'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490474363' status='passed' stop='1602490474363'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490474363' status='passed' stop='1602490474363'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490474364' status='broken' stop='1602490506458'>
+            <name>When I search for specific page 5</name>
+            <title>When I search for specific page 5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1602490474365' status='broken' stop='1602490506458'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='72460d4b-e7e5-407a-9660-76658019da2e-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=85.0.4183.121)</message>
+                <stack-trace>chrome not reachable
+                  (Session info: chrome=85.0.4183.121)
+                    at getErrorFromResponseBody (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.$ (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at Browser.runCommandWithHooks (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\runner\build\index.js:187:36)
+                    at HotelDetailPage.get (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\pageobjects\modules\hotel.detail.page.ts:28:31)
+                    at HotelDetailPage.forwardPages (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\pageobjects\modules\hotel.detail.page.ts:97:43)
+                    at World.&lt;anonymous> (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\features\step-definitions\hotel.paging.ts:16:25)
+                    at World.executeSync (D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\TaviscaAssignmentsForQA\webDriverIO-Cucumber\node_modules\@wdio\sync\build\index.js:80:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1602490506458' status='pending' stop='1602490506458'>
+            <name>Then It should search specific page properly</name>
+            <title>Then It should search specific page properly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490506459' status='passed' stop='1602490506459'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490506459' status='passed' stop='1602490506461'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490506461' status='passed' stop='1602490506461'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1602490506461' status='passed' stop='1602490506461'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

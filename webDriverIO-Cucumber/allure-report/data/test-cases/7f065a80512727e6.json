@@ -1,0 +1,118 @@
+{
+  "uid" : "7f065a80512727e6",
+  "name" : "When I open the hotel search",
+  "fullName" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination.When I open the hotel search",
+  "historyId" : "8a12bce0252c66a84d87ac37feb562be",
+  "time" : {
+    "start" : 1602068967212,
+    "stop" : 1602068990417,
+    "duration" : 23205
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1602068967217,
+        "stop" : 1602068985281,
+        "duration" : 18064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7caa31570fb54278",
+        "name" : "Request",
+        "source" : "7caa31570fb54278.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1602068985281,
+        "stop" : 1602068985403,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f949016ca5ba3dab",
+        "name" : "Response",
+        "source" : "f949016ca5ba3dab.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I open the hotel search"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59543b30e05812b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602068967056,
+        "stop" : 1602068990090,
+        "duration" : 23034
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f065a80512727e6.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

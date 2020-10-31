@@ -1,0 +1,152 @@
+{
+  "uid" : "c2c1525662e6b01d",
+  "name" : "When I open the hotel search",
+  "fullName" : "vacationsdirect hotel search verification: [Scenario 1.0] As a user, I can search hotels for expected destination.When I open the hotel search",
+  "historyId" : "95e4ce1e921a9bbc43b604731e3dd580",
+  "time" : {
+    "start" : 1602157983576,
+    "stop" : 1602158003553,
+    "duration" : 19977
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1602157983582,
+        "stop" : 1602157997666,
+        "duration" : 14084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d27edae7f009bae7",
+        "name" : "Request",
+        "source" : "d27edae7f009bae7.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1602157997667,
+        "stop" : 1602157998532,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1602157997671,
+          "stop" : 1602157998273,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "811fe826df0846bb",
+          "name" : "Screenshot",
+          "source" : "811fe826df0846bb.png",
+          "type" : "image/png",
+          "size" : 184463
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "547f23cddbd1a48c",
+        "name" : "Response",
+        "source" : "547f23cddbd1a48c.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1602157998533,
+        "stop" : 1602157999308,
+        "duration" : 775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea5f5fab753f16cd",
+        "name" : "Screenshot",
+        "source" : "ea5f5fab753f16cd.png",
+        "type" : "image/png",
+        "size" : 315310
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search verification: [Scenario 1.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search verification: [Scenario 1.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I open the hotel search"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search verification: [Scenario 1.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2c1525662e6b01d.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

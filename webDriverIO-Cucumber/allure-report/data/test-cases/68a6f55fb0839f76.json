@@ -1,0 +1,124 @@
+{
+  "uid" : "68a6f55fb0839f76",
+  "name" : "Then It should redirect hotels details page properly",
+  "fullName" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination.Then It should redirect hotels details page properly",
+  "historyId" : "9e9ae2eb657919576a5f630bba932c3e",
+  "time" : {
+    "start" : 1602069026452,
+    "stop" : 1602069028702,
+    "duration" : 2250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1602069026453,
+        "stop" : 1602069028677,
+        "duration" : 2224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebf4e19186a25e86",
+        "name" : "Request",
+        "source" : "ebf4e19186a25e86.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "29fc393b8c36d76f",
+        "name" : "Response",
+        "source" : "29fc393b8c36d76f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/1b427223-f68b-4228-a0de-26dfc62ddcfe/text",
+      "time" : {
+        "start" : 1602069028678,
+        "stop" : 1602069028700,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b8dd97bd699dedb",
+        "name" : "Response",
+        "source" : "7b8dd97bd699dedb.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then It should redirect hotels details page properly"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f7b6a6bcf1b412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602069026103,
+        "stop" : 1602069026162,
+        "duration" : 59
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68a6f55fb0839f76.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

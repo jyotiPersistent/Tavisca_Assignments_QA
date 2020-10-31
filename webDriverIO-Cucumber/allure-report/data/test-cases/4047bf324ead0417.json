@@ -1,0 +1,97 @@
+{
+  "uid" : "4047bf324ead0417",
+  "name" : "Then It should redirect hotels search page properly",
+  "fullName" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination.Then It should redirect hotels search page properly",
+  "historyId" : "1ee6c2a125a2fb567e373f872f651b9f",
+  "time" : {
+    "start" : 1602068990418,
+    "stop" : 1602068990436,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1602068990421,
+        "stop" : 1602068990434,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94033ea30df22afe",
+        "name" : "Response",
+        "source" : "94033ea30df22afe.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then It should redirect hotels search page properly"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search: As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59973ad48edec2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602068990091,
+        "stop" : 1602068990106,
+        "duration" : 15
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4047bf324ead0417.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

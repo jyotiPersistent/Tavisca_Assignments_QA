@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {                    
+		"target": "es5",
+		"module": "commonjs",
+		"outDir": "bin",
+		"removeComments": true
+	},
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.+(ts|tsx|js)",
+      "**/?(*.)+(spec|test).+(ts|tsx|js)"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+}

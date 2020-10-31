@@ -1,0 +1,89 @@
+{
+  "uid" : "7a293bd725b4a018",
+  "name" : "Then It should redirect hotels search page properly and have title- Home",
+  "fullName" : "vacationsdirect hotel search and sorting verification: [Scenario 3.0] As a user, I can search hotels for expected destination.Then It should redirect hotels search page properly and have title- Home",
+  "historyId" : "f577de1012d3bc5468cd7f9c4ca22ab3",
+  "time" : {
+    "start" : 1602158003014,
+    "stop" : 1602158003028,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1602158003017,
+        "stop" : 1602158003026,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bd2cd97cd73fbf5",
+        "name" : "Response",
+        "source" : "4bd2cd97cd73fbf5.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search and sorting verification: [Scenario 3.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search and sorting verification: [Scenario 3.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then It should redirect hotels search page properly and have title- Home"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search and sorting verification: [Scenario 3.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a293bd725b4a018.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

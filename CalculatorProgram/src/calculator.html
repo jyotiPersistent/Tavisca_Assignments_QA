@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>	
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator_css.css">
+  </head>
+  <body>
+
+ <script src="calculator.ts"></script>
+
+    <!-- create table -->
+
+        <table border="1">
+            <tr>
+              <td><input type="button" value="c" onclick="evaluate('c')"/> </td>
+              <td colspan="3"><input type="text" id="output"/></td>
+            <!-- clr() function will call clr to clear all value -->
+            </tr>
+            <tr>
+            <!-- creating buttons and assigning values-->
+              <td><input type="button" value="+" onclick="evaluate('+')"/> </td>
+              <td><input type="button" value="1" onclick="evaluate('1')"/> </td>
+              <td><input type="button" value="2" onclick="evaluate('2')"/> </td>
+              <td><input type="button" value="3" onclick="evaluate('3')"/> </td>
+            </tr>
+            <tr>
+              <td><input type="button" value="-" onclick="evaluate('-')"/> </td>
+              <td><input type="button" value="4" onclick="evaluate('4')"/> </td>
+              <td><input type="button" value="5" onclick="evaluate('5')"/> </td>
+              <td><input type="button" value="6" onclick="evaluate('6')"/> </td>
+            </tr>
+            <tr>
+              <td><input type="button" value="*" onclick="evaluate('*')"/> </td>
+              <td><input type="button" value="7" onclick="evaluate('7')"/> </td>
+              <td><input type="button" value="8" onclick="evaluate('8')"/> </td>
+              <td><input type="button" value="9" onclick="evaluate('9')"/> </td>
+            </tr>
+            <tr>
+              <td><input type="button" value="/" onclick="evaluate('/')"/> </td>
+              <td><input type="button" value="." onclick="evaluate('.')"/> </td>
+              <td><input type="button" value="0" onclick="evaluate('0')"/> </td>
+              <!-- Evaluating function call eval()-->
+              <td><input type="button" value="=" onclick="evaluate('=')"/> </td>
+            </tr>
+        </table>
+  </body> 
+</html>

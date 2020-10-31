@@ -1,0 +1,116 @@
+{
+  "uid" : "b3642be8a0edbf46",
+  "name" : "Then It should redirect hotels details page properly with correct location name- Houston",
+  "fullName" : "vacationsdirect hotel search and paging verification: [Scenario 2.0] As a user, I can search hotels for expected destination.Then It should redirect hotels details page properly with correct location name- Houston",
+  "historyId" : "6ba48d1a37d1ea8c53ee2d753af56730",
+  "time" : {
+    "start" : 1602158045567,
+    "stop" : 1602158045628,
+    "duration" : 61
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1602158045568,
+        "stop" : 1602158045598,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76bc5365e227f6c8",
+        "name" : "Request",
+        "source" : "76bc5365e227f6c8.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7174c894eb1f65b6",
+        "name" : "Response",
+        "source" : "7174c894eb1f65b6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/091b86bb-adf6-4ba9-bd3c-221e787ac4e9/text",
+      "time" : {
+        "start" : 1602158045600,
+        "stop" : 1602158045625,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40470df0bbe48601",
+        "name" : "Response",
+        "source" : "40470df0bbe48601.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "vacationsdirect hotel search and paging verification: [Scenario 2.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testClass",
+    "value" : "vacationsdirect hotel search and paging verification: [Scenario 2.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then It should redirect hotels details page properly with correct location name- Houston"
+  }, {
+    "name" : "package",
+    "value" : "vacationsdirect hotel search and paging verification: [Scenario 2.0] As a user, I can search hotels for expected destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3642be8a0edbf46.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

@@ -1,5 +1,4 @@
 
-
 //*******Global Variable Declaration*******
 const inputNumber:number = 5; 
 //const inputNumber = '5'; 
@@ -16,14 +15,22 @@ let factorialNumberRecursive:number=1;
 //Method Declaration
 export const getFactorialNumberRecursive = ((inputNumber:number, factorialNumberRecursive:number)=>
  {    
-  if (inputNumber > 0) 
-  {  
-    factorialNumberRecursive = factorialNumberRecursive * inputNumber;  
-    getFactorialNumberRecursive(inputNumber - 1,factorialNumberRecursive);  
-  }  
-
+  factorialNumberRecursive=_calculateFactorialNumber(inputNumber, factorialNumberRecursive)
+  console.log("1. Factorial No of "+ inputNumber +" is: "+ factorialNumberRecursive);  
   return factorialNumberRecursive;  
 });
+
+function _calculateFactorialNumber(inputNumber:number, factorialNumberRecursive:number)
+{
+  while (inputNumber > 0) 
+  {  
+    factorialNumberRecursive = factorialNumberRecursive * inputNumber; 
+    console.log("Factorial No of "+ inputNumber +" is: "+ factorialNumberRecursive);  
+    _calculateFactorialNumber(inputNumber - 1,factorialNumberRecursive);   
+  }   
+
+  return factorialNumberRecursive; 
+}
 
 
  
